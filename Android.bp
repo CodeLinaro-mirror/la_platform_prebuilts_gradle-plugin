@@ -3,14 +3,6 @@ package {
 }
 
 java_import {
-    name: "intellij-core",
-    host_supported: true,
-    jars: [
-            "com/android/tools/external/com-intellij/intellij-core/31.10.0-alpha06/intellij-core-31.10.0-alpha06.jar",
-    ]
-}
-
-java_import {
     name: "metalava-gradle-plugin-deps",
     host_supported: true,
     jars: [
