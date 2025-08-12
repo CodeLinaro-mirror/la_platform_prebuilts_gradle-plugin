@@ -25,7 +25,7 @@ function delete_mvn_dir {
 
 trap delete_mvn_dir EXIT
 
-MAVEN_VERSION=3.9.4
+MAVEN_VERSION=3.9.11
 # Download and unzip Apache Maven
 (
   cd $MVN_DIR
